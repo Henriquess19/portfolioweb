@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Henriquess19/web_portfolio/issues"
   },
-  "homepage": "https://github.com/Henriquess19/web_portfolio#readme"
+  "homepage": "https://github.com/Henriquess19/web_portfolio#readme",
+  "dependencies": {
+    "vue": "^2.6.14"
+  }
 }
