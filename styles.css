@@ -1,0 +1,65 @@
+body {
+    background-color: #211e1d;
+    font-family: raleway, monospace;
+
+}
+
+icons{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+#title {
+    color: #e2e0de;
+    text-align: initial;
+    font-size:clamp(1rem,2vw,2.5rem) ;
+    padding: 7px;
+    margin: 20px;
+}
+
+#icons{
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    row-gap: 30px ;
+}
+
+#github{
+    float: left;
+    margin-left: 25px;
+    height: 6vh;
+    width: 6vw;
+    filter:contrast(10%);
+}
+
+#instagram{
+    float: left;
+    margin-left: 25px;
+    height: 6vh;
+    width: 6vw;
+    filter:contrast(10%);
+}
+
+#spotify{
+    float: left;
+    margin-left: 25px;
+    height: 6vh;
+    width: 6vw;
+    filter:contrast(10%);
+}
+
+#discord{
+    float: left;
+    margin-left: 25px;
+    height: 6vh;
+    width: 6vw;
+    filter:contrast(10%);
+}
+
+
+
+
+
+
