@@ -1,17 +1,9 @@
 body {
     background-color: #211e1d;
     font-family: raleway, monospace;
-
 }
 
-icons{
-    width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
-}
-
-#title {
+.title {
     color: #e2e0de;
     text-align: initial;
     font-size:clamp(1rem,2vw,2.5rem) ;
@@ -19,44 +11,38 @@ icons{
     margin: 20px;
 }
 
-#icons{
-    flex-direction: column;
-    display: flex;
+.icons_grid{
+    float: left;
+    width:2.5%;
+    padding:1vw;
+    margin:1vh;
+    display: block;
+    transform: translate(725%,835%);
+    position: sticky;
+
+}
+
+.icons{
+     width: clamp(5vw,5vw,3.5vw);
+     filter:contrast(10%);
     position: absolute;
-    row-gap: 30px ;
+    left: 50%;
 }
 
-#github{
-    float: left;
-    margin-left: 25px;
-    height: 6vh;
-    width: 6vw;
-    filter:contrast(10%);
+.icons:hover{
+    filter: invert(100%);
 }
 
-#instagram{
-    float: left;
-    margin-left: 25px;
-    height: 6vh;
-    width: 6vw;
-    filter:contrast(10%);
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #e2e0de;
+    text-align: center;
+    font-size: 1.5vh;
 }
 
-#spotify{
-    float: left;
-    margin-left: 25px;
-    height: 6vh;
-    width: 6vw;
-    filter:contrast(10%);
-}
-
-#discord{
-    float: left;
-    margin-left: 25px;
-    height: 6vh;
-    width: 6vw;
-    filter:contrast(10%);
-}
 
 
 
