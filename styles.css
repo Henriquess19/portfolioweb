@@ -16,7 +16,7 @@ body {
     width:2.5%;
     padding:1vw;
     margin:1vh;
-    display: block;
+    display: flex;
     transform: translate(825%,835%);
     position: sticky;
 
