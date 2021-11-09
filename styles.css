@@ -11,25 +11,57 @@ body {
     margin: 20px;
 }
 
-.icons_grid{
-    float: left;
-    width:2.5%;
-    padding:1vw;
-    margin:1vh;
-    display: flex;
-    transform: translate(825%,835%);
-    position: sticky;
-
-}
-
 .icons{
-     width: clamp(5vw,5vw,3.5vw);
-     filter:contrast(10%);
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    width: 750px;
     position: absolute;
     left: 50%;
+    top: 40%;
+    transform: translate(-50%,50%);
+    filter: contrast(10%)
 }
 
-.icons:hover{
+.github{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+
+}
+
+.github:hover{
+    filter: invert(100%);
+
+}
+
+.discord{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.discord:hover{
+    filter: invert(100%);
+}
+
+.spotify{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.spotify:hover{
+    filter: invert(100%);
+}
+
+.instagram{
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+
+.instagram:hover{
     filter: invert(100%);
 }
 
@@ -41,6 +73,21 @@ body {
     color: #e2e0de;
     text-align: center;
     font-size: 1.5vh;
+    line-height: 20px
+}
+
+.sourcecode{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #e2e0de;
+    text-align: center;
+    font-size: 1.5vh;
+    line-height: 20px
+}
+.sourcecode:hover{
+    filter: contrast(0%);
 }
 
 
